@@ -192,11 +192,11 @@
   },
   {
     "category": 2,
-    "title": "On average, how frequently are your amenities utilized? ",
+    "title": "On average, how frequently are your amenities utilized?",
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - I currently have no way to track this ",
+        "label": "A - I currently have no way to track this",
         "score": 0
       },
       {
@@ -213,6 +213,192 @@
       },
       {
         "label": "E - >90% utilization",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "title": "On average, how quickly do you respond back to your residents?",
+    "multiple_choice": false,
+    "options": [
+      {
+        "label": "A - I'm currently not tracking this",
+        "score": 0
+      },
+      {
+        "label": "B - Within 48-72 hours",
+        "score": 1
+      },
+      {
+        "label": "C - Within 24 hours",
+        "score": 2
+      },
+      {
+        "label": "D - Within 6 hours or less",
+        "score": 3
+      },
+      {
+        "label": "E - Within 1 hour or less",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "category": 2,
+    "title": "On average, how many residents does each resident interact with per month?",
+    "multiple_choice": false,
+    "options": [
+      {
+        "label": "A - I'm currently not tracking this",
+        "score": 0
+      },
+      {
+        "label": "B - 1 other resident",
+        "score": 1
+      },
+      {
+        "label": "C - 2 other residents",
+        "score": 2
+      },
+      {
+        "label": "D - 3 other residents",
+        "score": 3
+      },
+      {
+        "label": "E - 4 or more other residents",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "category": 2,
+    "title": "On average, how often are offers or events for local venues advertised to your residents?",
+    "multiple_choice": false,
+    "options": [
+      {
+        "label": "A - I'm currently not doing this ",
+        "score": 0
+      },
+      {
+        "label": "B - At least once a year",
+        "score": 1
+      },
+      {
+        "label": "C - At least 1-3 times a year",
+        "score": 2
+      },
+      {
+        "label": "D - At least one a month",
+        "score": 3
+      },
+      {
+        "label": "E - Multiple times a month",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "category": 1,
+    "title": "Which features are currently available to your residents through the technology products you currently provide?",
+    "multiple_choice": true,
+    "options": [
+      {
+        "label": "None",
+        "score": 0
+      },
+      {
+        "label": "Rent pay",
+        "score": 1
+      },
+      {
+        "label": "Maintenance/Service Requests",
+        "score": 1
+      },
+      {
+        "label": "Amenity booking",
+        "score": 1
+      },
+      {
+        "label": "Keyless entry via mobile app",
+        "score": 1
+      },
+      {
+        "label": "Access to building documents",
+        "score": 1
+      },
+      {
+        "label": "Chat with on-site management",
+        "score": 1
+      },
+      {
+        "label": "Event RSVP",
+        "score": 1
+      },
+      {
+        "label": "Resident-to-resident communication",
+        "score": 1
+      },
+      {
+        "label": "Marketplace",
+        "score": 1
+      },
+      {
+        "label": "Engagement points and rewards",
+        "score": 1
+      }
+    ]
+  },
+  {
+    "category": 0,
+    "title": "Based on current feedback from residents, how satisfied would you say residents are with the current level of property cleanliness?",
+    "multiple_choice": false,
+    "options": [
+      {
+        "label": "A - I'm currently not collecting feedback on this",
+        "score": 0
+      },
+      {
+        "label": "B - Extremely dissatisfied",
+        "score": 1
+      },
+      {
+        "label": "C - Dissatisfied",
+        "score": 2
+      },
+      {
+        "label": "D - Satisfied",
+        "score": 3
+      },
+      {
+        "label": "E - Extremely satisfied",
+        "score": 5
+      }
+    ]
+  },
+  {
+    "category": 0,
+    "title": "Based on current feedback from residents, how satisfied would you say residents are with the current level of property safety?",
+    "multiple_choice": false,
+    "options": [
+      {
+        "label": "A - I'm currently not collecting feedback on this",
+        "score": 0
+      },
+      {
+        "label": "B - Extremely dissatisfied",
+        "score": 1
+      },
+      {
+        "label": "C - Dissatisfied",
+        "score": 2
+      },
+      {
+        "label": "D - Satisfied",
+        "score": 3
+      },
+      {
+        "label": "E - Extremely satisfied",
         "score": 5
       }
     ]
