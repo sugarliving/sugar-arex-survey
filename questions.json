@@ -5,6 +5,10 @@
     "multiple_choice": true,
     "options": [
       {
+        "label": "None",
+        "score": 0
+      },
+      {
         "label": "Birthdays",
         "score": 1
       },
@@ -124,7 +128,7 @@
     ]
   },
   {
-    "category": 1,
+    "category": 0,
     "title": "How frequently do you act on the insights and/or feedback you recieve?",
     "multiple_choice": false,
     "options": [
@@ -151,7 +155,7 @@
     ]
   },
   {
-    "category": 1,
+    "category": 0,
     "title": "On average, how quickly do you respond back to your residents?",
     "multiple_choice": false,
     "options": [
@@ -182,6 +186,10 @@
     "title": "Which amenities do you currently offer to your residents?",
     "multiple_choice": true,
     "options": [
+      {
+        "label": "None",
+        "score": 0
+      },
       {
         "label": "Gym/Fitness Center",
         "score": 1
@@ -296,6 +304,33 @@
     ]
   },
   {
+    "category": 1,
+    "title": "On average, how frequently are your amenities utilized?",
+    "multiple_choice": false,
+    "options": [
+      {
+        "label": "A - I currently have no way to track this",
+        "score": 0
+      },
+      {
+        "label": "B - ~25% utilization",
+        "score": 1
+      },
+      {
+        "label": "C - >50% utilization",
+        "score": 2
+      },
+      {
+        "label": "D - >75% utilization",
+        "score": 3
+      },
+      {
+        "label": "E - >90% utilization",
+        "score": 5
+      }
+    ]
+  },
+  {
     "category": 2,
     "title": "How frequently do you currently host events for your residents?",
     "multiple_choice": false,
@@ -318,33 +353,6 @@
       },
       {
         "label": "E - Multiple times a month",
-        "score": 5
-      }
-    ]
-  },
-  {
-    "category": 2,
-    "title": "On average, how frequently are your amenities utilized?",
-    "multiple_choice": false,
-    "options": [
-      {
-        "label": "A - I currently have no way to track this",
-        "score": 0
-      },
-      {
-        "label": "B - ~25% utilization",
-        "score": 1
-      },
-      {
-        "label": "C - >50% utilization",
-        "score": 2
-      },
-      {
-        "label": "D - >75% utilization",
-        "score": 3
-      },
-      {
-        "label": "E - >90% utilization",
         "score": 5
       }
     ]
