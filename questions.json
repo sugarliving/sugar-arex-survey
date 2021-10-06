@@ -1,0 +1,88 @@
+[
+	{
+  	category: 0,
+  	title: "Which pieces of information do you currently collect and store about your residents?",
+    multiple_choice: true,
+    options: [
+    	{label: "Birthdays", score: 1},
+      {label: "Age", score: 1},
+      {label: "Pet Information", score: 1},
+      {label: "Hobbies / Interests", score: 1},
+      {label: "Primary Method of Transportation", score: 1},
+      {label: "Marital/Relationship Status", score: 1},
+      {label: "Occupation", score: 1},
+      {label: "Time spent in current city", score: 1},
+      {label: "Average time spent traveling/away from home", score: 1}
+    ]
+  },
+  {
+  	category: 1,
+  	title: "How frequently do you currently poll your community and collect information on what you can be doing better?",
+    multiple_choice: false,
+    options: [
+    	{label: "A - Not currently doing this", score: 0},
+    	{label: "B - At least once a year", score: 1},
+      {label: "C - At least 1-3 times a year", score: 2},
+      {label: "D - At least one a month", score: 3},
+      {label: "E - Multiple times a month", score: 5}
+    ]
+  },
+  {
+  	category: 1,
+  	title: "How frequently do you act on the insights and/or feedback you recieve?",
+    multiple_choice: false,
+    options: [
+    	{label: "A - Not currently doing this", score: 0},
+    	{label: "B - At least once a year", score: 1},
+      {label: "C - At least 1-3 times a year", score: 2},
+      {label: "D - At least one a month", score: 3},
+      {label: "E - Multiple times a month", score: 5}
+    ]
+  },
+  {
+  	category: 2,
+  	title: "How frequently do you currently host events for your residents?",
+    multiple_choice: false,
+    options: [
+    	{label: "A - Not currently doing this", score: 0},
+    	{label: "B - At least once a year", score: 1},
+      {label: "C - At least 1-3 times a year", score: 2},
+      {label: "D - At least one a month", score: 3},
+      {label: "E - Multiple times a month", score: 5}
+    ]
+  },
+  {
+  	category: 1,
+  	title: "Which amenities do you currently offer to your residents?",
+    multiple_choice: true,
+    options: [
+    	{label: "Gym/Fitness Center", score: 1},
+      {label: "Resident Mobile App", score: 1},
+      {label: "Pet-friendly amenities", score: 1},
+      {label: "Keyless entry", score: 1},
+      {label: "Pool/hot tub", score: 1},
+      {label: "On-site classes or events", score: 1},
+      {label: "Coworking spaces", score: 1},
+      {label: "Smart home technology", score: 1},
+      {label: "Green space", score: 1},
+      {label: "Community garden", score: 1},
+      {label: "In-building retailers and services", score: 1},
+      {label: "Car-charging stations", score: 1},
+      {label: "Sporting facilities", score: 1},
+      {label: "Movie theatre", score: 1},
+      {label: "Grilling stations", score: 1}
+    ]
+  },
+  {
+  	category: 2,
+  	title: "On average, how frequently are your amenities utilized? ",
+    multiple_choice: false,
+    options: [
+    	{label: "A - I currently have no way to track this ", score: 0},
+    	{label: "B - ~25% utilization", score: 1},
+      {label: "C - >50% utilization", score: 2},
+      {label: "D - >75% utilization", score: 3},
+      {label: "E - >90% utilization", score: 5}
+    ]
+  },
+]
