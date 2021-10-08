@@ -10,39 +10,39 @@
       },
       {
         "label": "Birthdays",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Age",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Pet Information",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Hobbies / Interests",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Primary Method of Transportation",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Marital/Relationship Status",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Occupation",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Time spent in current city",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Average time spent traveling/away from home",
-        "score": 1
+        "score": 0.6
       }
     ]
   },
@@ -52,23 +52,23 @@
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - I'm currently not collecting feedback on this",
+        "label": "I'm currently not collecting feedback on this",
         "score": 0
       },
       {
-        "label": "B - Extremely dissatisfied",
+        "label": "Extremely dissatisfied",
         "score": 1
       },
       {
-        "label": "C - Dissatisfied",
+        "label": "Dissatisfied",
         "score": 2
       },
       {
-        "label": "D - Satisfied",
+        "label": "Satisfied",
         "score": 3
       },
       {
-        "label": "E - Extremely satisfied",
+        "label": "Extremely satisfied",
         "score": 5
       }
     ]
@@ -79,23 +79,23 @@
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - I'm currently not collecting feedback on this",
+        "label": "I'm currently not collecting feedback on this",
         "score": 0
       },
       {
-        "label": "B - Extremely dissatisfied",
+        "label": "Extremely dissatisfied",
         "score": 1
       },
       {
-        "label": "C - Dissatisfied",
+        "label": "Dissatisfied",
         "score": 2
       },
       {
-        "label": "D - Satisfied",
+        "label": "Satisfied",
         "score": 3
       },
       {
-        "label": "E - Extremely satisfied",
+        "label": "Extremely satisfied",
         "score": 5
       }
     ]
@@ -106,23 +106,23 @@
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - Not currently doing this",
+        "label": "Not currently doing this",
         "score": 0
       },
       {
-        "label": "B - At least once a year",
+        "label": "At least once a year",
         "score": 1
       },
       {
-        "label": "C - At least 1-3 times a year",
+        "label": "At least 1-3 times a year",
         "score": 2
       },
       {
-        "label": "D - At least one a month",
+        "label": "At least one a month",
         "score": 3
       },
       {
-        "label": "E - Multiple times a month",
+        "label": "Multiple times a month",
         "score": 5
       }
     ]
@@ -133,23 +133,23 @@
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - Not currently doing this",
+        "label": "Not currently doing this",
         "score": 0
       },
       {
-        "label": "B - At least once a year",
+        "label": "At least once a year",
         "score": 1
       },
       {
-        "label": "C - At least 1-3 times a year",
+        "label": "At least 1-3 times a year",
         "score": 2
       },
       {
-        "label": "D - At least one a month",
+        "label": "At least one a month",
         "score": 3
       },
       {
-        "label": "E - Multiple times a month",
+        "label": "Multiple times a month",
         "score": 5
       }
     ]
@@ -160,23 +160,23 @@
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - I'm currently not tracking this",
+        "label": "I'm currently not tracking this",
         "score": 0
       },
       {
-        "label": "B - Within 48-72 hours",
+        "label": "Within 48-72 hours",
         "score": 1
       },
       {
-        "label": "C - Within 24 hours",
+        "label": "Within 24 hours",
         "score": 2
       },
       {
-        "label": "D - Within 6 hours or less",
+        "label": "Within 6 hours or less",
         "score": 3
       },
       {
-        "label": "E - Within 1 hour or less",
+        "label": "Within 1 hour or less",
         "score": 5
       }
     ]
@@ -192,63 +192,63 @@
       },
       {
         "label": "Gym/Fitness Center",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Resident Mobile App",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Pet-friendly amenities",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Keyless entry",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Pool/hot tub",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "On-site classes or events",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Coworking spaces",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Smart home technology",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Green space",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Community garden",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "In-building retailers and services",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Car-charging stations",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Sporting facilities",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Movie theatre",
-        "score": 1
+        "score": 0.33
       },
       {
         "label": "Grilling stations",
-        "score": 1
+        "score": 0.38
       }
     ]
   },
@@ -263,43 +263,43 @@
       },
       {
         "label": "Rent pay",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Maintenance/Service Requests",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Amenity booking",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Keyless entry via mobile app",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Access to building documents",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Chat with on-site management",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Event RSVP",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Resident-to-resident communication",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Marketplace",
-        "score": 1
+        "score": 0.5
       },
       {
         "label": "Engagement points and rewards",
-        "score": 1
+        "score": 0.5
       }
     ]
   },
@@ -309,23 +309,23 @@
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - I currently have no way to track this",
+        "label": "I currently have no way to track this",
         "score": 0
       },
       {
-        "label": "B - ~25% utilization",
+        "label": "~25% utilization",
         "score": 1
       },
       {
-        "label": "C - >50% utilization",
+        "label": ">50% utilization",
         "score": 2
       },
       {
-        "label": "D - >75% utilization",
+        "label": ">75% utilization",
         "score": 3
       },
       {
-        "label": "E - >90% utilization",
+        "label": ">90% utilization",
         "score": 5
       }
     ]
@@ -336,23 +336,23 @@
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - Not currently doing this",
+        "label": "Not currently doing this",
         "score": 0
       },
       {
-        "label": "B - At least once a year",
+        "label": "At least once a year",
         "score": 1
       },
       {
-        "label": "C - At least 1-3 times a year",
+        "label": "At least 1-3 times a year",
         "score": 2
       },
       {
-        "label": "D - At least one a month",
+        "label": "At least one a month",
         "score": 3
       },
       {
-        "label": "E - Multiple times a month",
+        "label": "Multiple times a month",
         "score": 5
       }
     ]
@@ -363,23 +363,23 @@
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - I'm currently not tracking this",
+        "label": "I'm currently not tracking this",
         "score": 0
       },
       {
-        "label": "B - 1 other resident",
+        "label": "1 other resident",
         "score": 1
       },
       {
-        "label": "C - 2 other residents",
+        "label": "2 other residents",
         "score": 2
       },
       {
-        "label": "D - 3 other residents",
+        "label": "3 other residents",
         "score": 3
       },
       {
-        "label": "E - 4 or more other residents",
+        "label": "4 or more other residents",
         "score": 5
       }
     ]
@@ -390,23 +390,23 @@
     "multiple_choice": false,
     "options": [
       {
-        "label": "A - I'm currently not doing this ",
+        "label": "I'm currently not doing this ",
         "score": 0
       },
       {
-        "label": "B - At least once a year",
+        "label": "At least once a year",
         "score": 1
       },
       {
-        "label": "C - At least 1-3 times a year",
+        "label": "At least 1-3 times a year",
         "score": 2
       },
       {
-        "label": "D - At least one a month",
+        "label": "At least one a month",
         "score": 3
       },
       {
-        "label": "E - Multiple times a month",
+        "label": "Multiple times a month",
         "score": 5
       }
     ]
