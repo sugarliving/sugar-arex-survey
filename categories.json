@@ -1,0 +1,53 @@
+[
+  {
+    "name": "personalization",
+    "score_meta": [
+      {
+        "label": "Impersonal",
+        "message": ""
+      },
+      {
+        "label": "Surface level",
+        "message": ""
+      },
+      {
+        "label": "Extremely human",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "name": "operations",
+    "score_meta": [
+      {
+        "label": "Losing money",
+        "message": "Managers are likely spending too much time on daily operations. We recommend leveraging technology to better connect your residents."
+      },
+      {
+        "label": "Inefficient",
+        "message": ""
+      },
+      {
+        "label": "Extremely efficient",
+        "message": ""
+      }
+    ]
+  },
+  {
+    "name": "community building",
+    "score_meta": [
+      {
+        "label": "Disconnected",
+        "message": "Your community is disconnected. We recommend spending more time investing in community building activities to make your property feel more like home."
+      },
+      {
+        "label": "Neighbors, not friends",
+        "message": "While your residents are likely able to engage with one another, there is still room for improvement. There are opportunities to host more on-site events and activities that bring residents closer together. "
+      },
+      {
+        "label": "Feels like home",
+        "message": "Your property most likely feels like home. Your management is effectively leveraging technology and on-site activities to turn strangers into neighbors and neighbors into friends."
+      }
+    ]
+  }
+]
