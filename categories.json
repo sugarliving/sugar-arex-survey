@@ -4,15 +4,15 @@
     "score_meta": [
       {
         "label": "Impersonal",
-        "message": ""
+        "message": "There's no message yet"
       },
       {
         "label": "Surface level",
-        "message": ""
+        "message": "There's no message yet"
       },
       {
         "label": "Extremely human",
-        "message": ""
+        "message": "There's no message yet"
       }
     ]
   },
@@ -25,11 +25,11 @@
       },
       {
         "label": "Inefficient",
-        "message": ""
+        "message": "There's no message yet"
       },
       {
         "label": "Extremely efficient",
-        "message": ""
+        "message": "There's no message yet"
       }
     ]
   },
