@@ -3,16 +3,19 @@
     "name": "personalization",
     "score_meta": [
       {
+        "level": 0,
         "label": "Impersonal",
-        "message": "There's no message yet"
+        "message": "Your residents may feel like you're not attentive to their needs."
       },
       {
+        "level": 1,
         "label": "Surface level",
-        "message": "There's no message yet"
+        "message": "You're covering the basics, not going above and beyond in creating a unique experience for residents."
       },
       {
+        "level": 2,
         "label": "Extremely human",
-        "message": "There's no message yet"
+        "message": "You're setting your residents up for developing a personal connection to your properties. Way to go!"
       }
     ]
   },
@@ -20,16 +23,19 @@
     "name": "operations",
     "score_meta": [
       {
+        "level": 0,
         "label": "Losing money",
         "message": "Managers are likely spending too much time on daily operations. We recommend leveraging technology to better connect your residents."
       },
       {
+        "level": 1,
         "label": "Inefficient",
-        "message": "There's no message yet"
+        "message": "You're trying to equip your staff with the right tools, but there may be some gaps in process or tooling."
       },
       {
+        "level": 2,
         "label": "Extremely efficient",
-        "message": "There's no message yet"
+        "message": "You're a pro! You're providing a best in class toolset to your team."
       }
     ]
   },
@@ -37,16 +43,19 @@
     "name": "community building",
     "score_meta": [
       {
+        "level": 0,
         "label": "Disconnected",
         "message": "Your community is disconnected. We recommend spending more time investing in community building activities to make your property feel more like home."
       },
       {
+        "level": 1,
         "label": "Neighbors, not friends",
         "message": "While your residents are likely able to engage with one another, there is still room for improvement. There are opportunities to host more on-site events and activities that bring residents closer together. "
       },
       {
+        "level": 2,
         "label": "Feels like home",
-        "message": "Your property most likely feels like home. Your management is effectively leveraging technology and on-site activities to turn strangers into neighbors and neighbors into friends."
+        "message": "Your management is effectively leveraging technology and on-site activities to turn strangers into neighbors and neighbors into friends."
       }
     ]
   }
