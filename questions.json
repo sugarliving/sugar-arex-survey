@@ -118,7 +118,7 @@
         "score": 2
       },
       {
-        "label": "At least one a month",
+        "label": "At least once a month",
         "score": 3
       },
       {
@@ -145,7 +145,7 @@
         "score": 2
       },
       {
-        "label": "At least one a month",
+        "label": "At least once a month",
         "score": 3
       },
       {
@@ -348,7 +348,7 @@
         "score": 2
       },
       {
-        "label": "At least one a month",
+        "label": "At least once a month",
         "score": 3
       },
       {
@@ -367,19 +367,19 @@
         "score": 0
       },
       {
-        "label": "1 other resident",
+        "label": "No residents",
         "score": 1
       },
       {
-        "label": "2 other residents",
+        "label": "Between 1 and 3 residents",
         "score": 2
       },
       {
-        "label": "3 other residents",
+        "label": "Less than 10 residents",
         "score": 3
       },
       {
-        "label": "4 or more other residents",
+        "label": "10 or more other residents",
         "score": 5
       }
     ]
@@ -402,7 +402,7 @@
         "score": 2
       },
       {
-        "label": "At least one a month",
+        "label": "At least once a month",
         "score": 3
       },
       {
