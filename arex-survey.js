@@ -103,7 +103,7 @@
     $("<input>")
       .attr({
         type: "hidden",
-        id: `arex-survey-id`,
+        id: `arex-scorecard-id`,
         name: "Survey ID",
       })
       .appendTo("#wf-form-AREX-Survey-Form");
@@ -280,7 +280,7 @@
   };
 
   // Create a "unique" identifier we can lookup the score by later ex: 2021122210150eh4
-  const assignSurveyId = function () {
+  const assignScorecardId = function () {
     let date = new Date();
     let year = date.getFullYear().toString();
     let month = date.getMonth().toString();
@@ -288,11 +288,11 @@
     let hour = date.getHours().toString();
     let minute = date.getMinutes().toString();
     let hash = Math.random().toString(36).slice(2);
-    let surveyId = year + month + day + hour + minute + hash;
+    let scorecardId = year + month + day + hour + minute + hash;
 
-    localStorage.setItem("sugar_arex_survey_id", surveyId);
+    localStorage.setItem("sugar_arex_scorecard_id", scorecardId);
 
-    $("#arex-survey-id").val(surveyId);
+    $("#arex-scorecard-id").val(scorecardId);
   };
 
   // Setup the navigation for previous and next questions
@@ -326,7 +326,7 @@
     });
   };
 
-  assignSurveyId();
+  assignScorecardId();
   setIntroModal();
   setSurveyForm();
   questionProgress();
