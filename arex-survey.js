@@ -36,7 +36,7 @@
   // Store whether or not they've started the survey to ignore the popup in the future
   $("#survey-intro-continue-button").on("click", function (e) {
     e.preventDefault();
-    setIntroModal();
+    $("#arex-survey-intro").fadeOut("fast");
   });
 
   // Get the highest possible score for a question
