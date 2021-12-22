@@ -283,7 +283,6 @@
   // Create a "unique" identifier we can lookup the score by later
   const assignSurveyId = function () {
     var date = new Date();
-    date.setTime(result_from_Date_getTime);
     var year = date.getFullYear();
     var month = date.getMonth();
     var day = date.getDate();
