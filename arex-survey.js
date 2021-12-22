@@ -1,5 +1,4 @@
 (async () => {
-  console.log("jimmmy");
   // Pulling in questions from this repo: https://github.com/sugarliving/sugar-arex-survey
   const categories = await $.getJSON(
     "https://raw.githubusercontent.com/sugarliving/sugar-arex-survey/main/categories.json"
