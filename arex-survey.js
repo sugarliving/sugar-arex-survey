@@ -281,13 +281,15 @@
 
   // Create a "unique" identifier we can lookup the score by later ex: 2021122210150eh4
   const assignSurveyId = function () {
-    var date = new Date();
-    var year = date.getFullYear();
-    var month = date.getMonth();
-    var day = date.getDate();
-    var hour = date.getHours();
-    var minute = date.getMinutes();
-    let hash = Math.random().toString(36).slice(0, 4);
+    let date = new Date();
+    let year = date.getFullYear().toString();
+    let month = date.getMonth().toString();
+    let day = date.getDate().toString();
+    let hour = date.getHours().toString();
+    let minute = date.getMinutes().toString();
+    let hash = Math.random().toString(36).slice(2);
+
+    console.log("Survey ID:", year + month + day + hour + minute + hash);
 
     $("#arex-survey-id").val(year + month + day + hour + minute + hash);
   };
