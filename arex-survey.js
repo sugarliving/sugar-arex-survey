@@ -103,7 +103,7 @@
     $("<input>")
       .attr({
         type: "hidden",
-        id: `arex-scorecard-id`,
+        id: `arex-survey-id`,
         name: "Survey ID",
       })
       .appendTo("#wf-form-AREX-Survey-Form");
@@ -280,7 +280,7 @@
   };
 
   // Create a "unique" identifier we can lookup the score by later ex: 2021122210150eh4
-  const assignScorecardId = function () {
+  const assignSurveyId = function () {
     let date = new Date();
     let year = date.getFullYear().toString();
     let month = date.getMonth().toString();
@@ -290,8 +290,8 @@
     let hash = Math.random().toString(36).slice(2);
     let scorecardId = year + month + day + hour + minute + hash;
 
-    localStorage.setItem("sugar_arex_scorecard_id", scorecardId);
-    $("#arex-scorecard-id").val(scorecardId);
+    localStorage.setItem("sugar_arex_survey_id", scorecardId);
+    $("#arex-survey-id").val(scorecardId);
   };
 
   // Setup the navigation for previous and next questions
@@ -330,5 +330,5 @@
   questionProgress();
   setQuestion();
   setNavigation();
-  assignScorecardId();
+  assignSurveyId();
 })();
