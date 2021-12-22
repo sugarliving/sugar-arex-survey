@@ -291,7 +291,6 @@
     let scorecardId = year + month + day + hour + minute + hash;
 
     localStorage.setItem("sugar_arex_scorecard_id", scorecardId);
-
     $("#arex-scorecard-id").val(scorecardId);
   };
 
@@ -326,10 +325,10 @@
     });
   };
 
-  assignScorecardId();
   setIntroModal();
   setSurveyForm();
   questionProgress();
   setQuestion();
   setNavigation();
+  assignScorecardId();
 })();
