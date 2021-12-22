@@ -279,7 +279,7 @@
     );
   };
 
-  // Create a "unique" identifier we can lookup the score by later
+  // Create a "unique" identifier we can lookup the score by later ex: 2021122210150eh4
   const assignSurveyId = function () {
     var date = new Date();
     var year = date.getFullYear();
