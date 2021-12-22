@@ -286,6 +286,7 @@
     var month = date.getMonth();
     var day = date.getDate();
     var hour = date.getHours();
+    var minute = date.getMinutes();
     // Random 4 alphanumeric character hash to add to the end to try to get some additional "unique-ness"
     let hash = Math.random().toString(36).slice(0, 4);
 
