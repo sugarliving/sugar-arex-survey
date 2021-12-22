@@ -288,10 +288,11 @@
     let hour = date.getHours().toString();
     let minute = date.getMinutes().toString();
     let hash = Math.random().toString(36).slice(2);
+    let surveyId = year + month + day + hour + minute + hash;
 
-    console.log("Survey ID:", year + month + day + hour + minute + hash);
+    localStorage.setItem("sugar_arex_survey_id", surveyId);
 
-    $("#arex-survey-id").val(year + month + day + hour + minute + hash);
+    $("#arex-survey-id").val(surveyId);
   };
 
   // Setup the navigation for previous and next questions
